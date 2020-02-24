@@ -38,7 +38,8 @@ complete = ["skia-safe/shaper", "skia-safe/svg", "skia-safe/textlayout"]
 winit = "0.21"
 raw-window-handle = "0.3"
 ash = "0.29"
-skia-safe = { version = ">=0.21", features = ["vulkan"] }
+skia-safe = { path = "/home/ostera/repos/github.com/rust-skia/rust-skia/skia-safe", featres = ["vulkan"] }
+
 
 log="0.4"
 
